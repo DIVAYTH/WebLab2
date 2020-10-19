@@ -1,0 +1,138 @@
+.header {
+    background: rgba(00, 00, 255, 0.7);
+    font-family: serif;
+    font-size: 28px;
+    font-style: oblique;
+    color: white;
+    padding: 10px;
+}
+
+.trapper {
+    float: right;
+}
+
+.graph {
+    margin: 20px 0 0 20px;
+    background: rgba(140, 185, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+}
+
+svg > .figure:hover {
+    fill: rgba(00, 00, 255, 0.6);
+}
+
+#pointer {
+    transition: all 1s;
+}
+
+.form {
+    margin: 20px 0 0 20px;
+    background: rgba(140, 185, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+}
+
+label[name="symbolY"] {
+    margin: 20px 0 0 20px;
+}
+
+.yInput label {
+    margin: 0 0 0 6%;
+}
+
+.yInput input {
+    margin: 4% 0 4% 6%;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 100px;
+}
+
+.rInput label {
+    position: relative;
+    top: 6px;
+    left: 20%;
+}
+
+.rInput div {
+    position: relative;
+    bottom: 14px;
+    left: 45%;
+}
+
+.xInput label{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+
+.xInput div {
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+}
+
+.sar {
+    padding: 4% 0 4% 4%;
+}
+
+.scroll {
+    height: 600px;
+    overflow: scroll;
+    padding: 0 0 20px 0;
+}
+
+.result {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    margin: 20px 20px 0 20px;
+}
+
+.resultHeader {
+    background-color: rgba(140, 185, 255, 0.3);
+}
+
+.result th {
+    width: 135px;
+    height: 60px;
+}
+
+.resultFromServlet {
+    background-color: rgba(140, 185, 255, 0.1);
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    background: rgba(00, 00, 255, 0.7);
+    font-family: serif;
+    font-size: 18px;
+    font-style: oblique;
+    color: white;
+    bottom: 0;
+    padding: 10px;
+}
+
+#gitName {
+    position: relative;
+    float: right;
+    right: 50%;
+}
+
+a img {
+    padding: 5px 0 0 0;
+    position: relative;
+    float: right;
+    right: 51%;
+}
+
+body {
+    margin: 0;
+}
+
+.backForm{
+    margin: 0 0 0 20px;
+}
